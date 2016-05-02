@@ -1,0 +1,21 @@
+# Site settings
+title: Byte-Size Thoughts
+header-img: img/home-bg.png
+email: ebshimon@gmail.com
+copyright_name: eliyooy
+description: > # this means to ignore newlines until "baseurl:"
+  Some short thoughts about the art and science of computer programming
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  eliyooy
+learn_profile: eliyooy
+email_username: ebshimon@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
