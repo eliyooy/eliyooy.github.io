@@ -9,19 +9,23 @@ Having gone through training thus far in Java and Ruby, one of the more interest
 
 For example, take the following code, first written in Java:
 
+```java
 List<Dog> dogList = new LinkedList<>();
 int numDogs = 0;
 Dog puppy = new Dog("Fido", 2);
 dogList.add(puppy);
 numDogs += 1;
+```
 
 Now take essentially the same program written in Ruby:
 
+```ruby
 dog_list = []
 num_dogs = 0
 puppy = Dog.new("Fido", 2)
 dog_list << puppy
 num_dogs += 1
+```
 
 Functionally, the programs do essentially the same thing.  Ruby stores arrays in an ArrayList-style structure by default with standard index calls, so the "[]" data structure is not performing the same function in terms of storing Dog objects or calling them as the Java version, but aside from that factor (which certainly affects efficiency, on a side note) the programs are the same.  Understandably, as everything in coding involves getting things done faster, one might be tempted to say that the Ruby version is superior to Java.  While Ruby allows for rapid development, there are a few advantages to the Java version of this simple program when you consider a more complex system.
 
